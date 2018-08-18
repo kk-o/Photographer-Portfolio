@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-class Footer extends React.Component {
+/* Todo: Add social media links */
+
+class Footer extends Component {
     render() {
         return (
             <div id="footer">
@@ -12,7 +14,7 @@ class Footer extends React.Component {
                         <li><a href="#" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
                     </ul>
                     <ul className="copyright">
-                        <li>&copy; Gatsby Starter Strata</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>&copy; Kiko Estrada</li><li>310 626 3552</li>
                     </ul>
                 </div>
             </div>
